@@ -1,8 +1,11 @@
 #include <iostream>
+#include "charOP.h"
 using namespace std;
 
 int Multiply(int a, int b);
 void MultiplyAndLog(int a, int b);
+
+
 int main()
 {
 	//Variables
@@ -34,4 +37,7 @@ int main()
 	MultiplyAndLog(6, 8);
 	MultiplyAndLog(7, 9);
 	MultiplyAndLog(4, 2);
+
+	charOP("Hemllo");
+
 }

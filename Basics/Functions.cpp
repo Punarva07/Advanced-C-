@@ -20,3 +20,8 @@ void MultiplyAndLog(int a, int b)
 	MultiplyAndLog(7,9);
 	MultiplyAndLog(4,2);
 }*/
+
+void charOP(const char* message)
+{
+	cout << message << endl;
+}
